@@ -50,7 +50,7 @@ At least one of the following tags should be defined:
 
 Examples:
 
-  go test -tags unit -v -timeout=45m . gfhfgh
+  go test -tags unit -v -timeout=45m .
   go test -tags functional -v -timeout=45m .
   go test -tags catalog -v -timeout=15m .
   go test -tags "org vdc" -v -timeout=5m .
